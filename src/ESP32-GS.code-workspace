@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../ESP32-GS"
+		},
+		{
+			"name": "ESP32-SAT",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
