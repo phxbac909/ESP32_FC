@@ -41,9 +41,6 @@ void proceedReceivedData(uint8_t *incomingData, size_t length) {
     }
 }
 
-// =======================================================
-// FAILSAFE TASK (DÙNG CHO MỌI LOẠI SÓNG)
-// =======================================================
 void failsafeTask(void *pvParameters) {
     unsigned long last_step_time = 0; 
     

@@ -104,7 +104,6 @@ void pid_euler_task(void *parameter) {
             pid_rate_yaw.reset();
             
             vTaskDelayUntil(&xLastWakeTime, pdMS_TO_TICKS(100)); 
-            // DEBUG_PRINTLN("2");
 
             continue;
         }

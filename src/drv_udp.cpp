@@ -110,9 +110,6 @@ bool comm_connect(void) {
     return (millis() - last_receive_time < 1000);
 }
 
-// =======================================================
-// XỬ LÝ NHẬN DỮ LIỆU BẰNG TASK NGẦM
-// =======================================================
 
 
 #endif

@@ -2,20 +2,22 @@
 // #define ENABLE_SERIAL_DEBUG  
 
 // #define ESPNOW
-#define UDP
+// #define UDP
 
-#define PID_250
+// #define PID_250
 // #define PID_1000
 
-#define CF
+// #define CF
 // #define KARMAL
+#define MH
 
-#define MAIN
+// #define MAIN
 // #define TEST_PID
 // #define TEST_MOTOR_VIA_SERIAL
 // #define TEST_MOTOR_VIA_ESPNOW
 // #define TEST_PIN
 // #define TEST_ESPNOW
+#define TEST_IMU_FILTER
 
 
 

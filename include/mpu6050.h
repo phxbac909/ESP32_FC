@@ -14,9 +14,13 @@ typedef struct {
     
     float acc_roll;
     float acc_pitch;
+
+    float acc_mag;
+
 } imu_data_t;
 
 void mpu6050_init();
 bool IMU_Update_And_Read(imu_data_t *out_data);
+void mpu6050_tare(); 
 
 #endif
